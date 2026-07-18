@@ -1,5 +1,8 @@
 #!/bin/bash
 #
+
+sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor "Automatic Display Enabled" -bool FALSE
+
 #credits to https://github.com/parasew/tahoe-disenshittify/blob/main/restore.sh
 
 defaults write com.apple.widgets.allow-widgets -bool false
